@@ -137,13 +137,12 @@ a#dropbtn {
 
 
 header {
-    background: transparent;
+    background: var(--primary-color);
     font-size: 18px;
     padding: 14px 0;
     font-weight: 700;
     text-transform: capitalize;
     color: var(--primary-color);
-    position: fixed;
     width: 100%;
     z-index: 99;
     transition: all 0.5s linear;
