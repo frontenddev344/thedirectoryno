@@ -405,9 +405,17 @@ section.enter_banner::before {
     z-index: 0;
     top: 0%;
 }
-.below_enter {
 
+.below_enter {
+    background: #f3efef;
+    padding: 60px 0;
+    text-align: center;
 }
+
+.entertain {
+    padding: 60px 0;
+}
+
 /* entertainment styling end */
 /* contact styling start */
 .contact__section {
