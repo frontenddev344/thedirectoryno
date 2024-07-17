@@ -412,6 +412,11 @@ section.enter_banner::before {
     text-align: center;
 }
 
+.below_box h2 {
+    padding: 0;
+    color: #000;
+}
+
 .entertain {
     padding: 60px 0;
 }
