@@ -354,7 +354,7 @@ section.news_banner::before {
 
 .season_box {
     text-align: center;
-    background: linear-gradient(178deg, #A8D1E7, transparent);
+    background: linear-gradient(178deg, #0E46A3, transparent);
     padding: 20px;
 }
 
@@ -364,7 +364,7 @@ section.news_banner::before {
 }
 
 .season_box:hover {
-    background: #a8d1e7;
+    background: #0E46A3;
 }
 
 .season_last p {
