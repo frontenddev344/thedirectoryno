@@ -459,6 +459,7 @@ section.home_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 .casino_img img {
     width: 800px;
     object-fit: cover;
@@ -467,6 +468,11 @@ section.home_banner::before {
 .casino_text a {
     color: #000;
     font-weight: bolder;
+}
+
+.casino .row {
+    position: relative;
+    gap: 30px;
 }
 
 /* casino styling end */
