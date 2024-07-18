@@ -470,6 +470,11 @@ section.casino_banner::before {
     object-fit: cover;
 }
 
+.casino_text a {
+    color: #000;
+    font-weight: bolder;
+}
+
 /* casino styling end */
 /* contact styling start */
 .contact__section {
