@@ -404,7 +404,10 @@ section.home_banner::before {
     padding: 60px 0;
     background: #0e46a31a;
 }
-
+.enter_box:hover {
+    background: #fff;
+    color: #000;
+}
 /* entertainment styling end */
 /* casino styling start */
 .casino_banner {
