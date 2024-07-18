@@ -427,7 +427,7 @@ section.enter_banner::before {
 /* entertainment styling end */
 /* casino styling start */
 section.casino_banner {
-    background: url(../img/enterbanner.jpg);
+    background: url(../img/casinobanner.jpg);
     background-size: cover;
     background-position: center;
     padding: 140px 0;
@@ -463,6 +463,11 @@ section.casino_banner::before {
 
 .casino {
     padding: 80px 0;
+}
+
+.casino_img img {
+    width: 800px;
+    object-fit: cover;
 }
 
 /* casino styling end */
