@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --primary-color: #A8D1E7;
-    --secondary-color: #F76D6D;
-    --main-color: #7E685A;
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --main-color: #F1FAF9;
 }
 
 * {
