@@ -379,10 +379,11 @@ section.news_banner::before {
     padding: 10px 0;
     text-align: left;
     color: #000;
+    font-size: 28px;
 }
 
 .enter_box {
-    background: linear-gradient(45deg, #F76D6D, transparent);
+    background: linear-gradient(45deg, #fff, transparent);
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -419,6 +420,7 @@ section.enter_banner::before {
 
 .entertain {
     padding: 60px 0;
+    background: #0e46a31a;
 }
 
 /* entertainment styling end */
