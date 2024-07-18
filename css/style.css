@@ -476,6 +476,14 @@ section.home_banner::before {
     gap: 30px;
 }
 
+.casino_img {
+    width: 30%;
+}
+
+.casino_text {
+    width: 70%;
+}
+
 /* casino styling end */
 /* contact styling start */
 .contact__section {
