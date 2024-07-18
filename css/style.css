@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --primary-color: #fff;
-    --secondary-color: #000;
-    --main-color: #F1FAF9;
+    --primary-color: #0E46A3;
+    --secondary-color: #fff;
+
 }
 
 * {
@@ -76,9 +76,9 @@ h2 {
 }
 
 /* navbar styling  */
-
 .logo img {
     max-width: 180px;
+    filter: invert(1);
 }
 
 .dropbtn i {
