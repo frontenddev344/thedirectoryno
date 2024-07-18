@@ -283,26 +283,7 @@ section.home_banner::before {
 }
 
 /* home page start */
-/* hotel styling start */
-section.hotel_banner {
-    background: url(../img/affordable.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    position: relative;
-}
 
-section.hotel_banner::before {
-    position: absolute;
-    content: '';
-    background: rgba(0, 0, 0, 0.55);
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    top: 0%;
-}
-
-/* hotel styling end */
 /* detail styling start*/
 .detail {
     padding: 60px 0;
@@ -333,7 +314,7 @@ section.hotel_banner::before {
     margin-left: 10px;
 }
 
-section.news_banner {
+.news_banner {
     background: url(../img/newsbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -342,7 +323,7 @@ section.news_banner {
     position: relative;
 }
 
-section.news_banner::before {
+.news_banner::before {
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.55);
@@ -390,7 +371,7 @@ section.news_banner::before {
     text-align: center;
 }
 
-section.enter_banner {
+.enter_banner {
     background: url(../img/enterbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -399,7 +380,7 @@ section.enter_banner {
     position: relative;
 }
 
-section.enter_banner::before {
+.enter_banner::before {
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.55);
@@ -426,7 +407,7 @@ section.enter_banner::before {
 
 /* entertainment styling end */
 /* casino styling start */
-section.casino_banner {
+.casino_banner {
     background: url(../img/casinobanner.jpg);
     background-size: cover;
     background-position: center;
@@ -435,7 +416,7 @@ section.casino_banner {
     position: relative;
 }
 
-section.casino_banner::before {
+.casino_banner::before {
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.55);
@@ -463,8 +444,21 @@ section.casino_banner::before {
 
 .casino {
     padding: 80px 0;
+    background: url(../img/casinobg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
+.casino::before {
+    position: absolute;
+    content: '';
+    background: rgb(255 255 255 / 55%);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
 .casino_img img {
     width: 800px;
     object-fit: cover;
