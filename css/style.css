@@ -462,6 +462,7 @@ section.home_banner::before {
 
 .casino_img img {
     width: 800px;
+    height: 450px;
     object-fit: cover;
 }
 
