@@ -386,6 +386,8 @@ section.news_banner::before {
     background: linear-gradient(45deg, #fff, transparent);
     margin-bottom: 20px;
     padding: 20px;
+    height: 250px;
+    text-align: center;
 }
 
 section.enter_banner {
