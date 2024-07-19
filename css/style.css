@@ -589,6 +589,7 @@ input.form-control.sub_btn:hover {
     color: var(--main-color);
     width: 80%;
     transform: translate(-50%, -50%);
+    color: var(--secondary-color);
 }
 
 /* contact styling end */
