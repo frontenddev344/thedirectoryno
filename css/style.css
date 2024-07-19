@@ -513,83 +513,67 @@ section.home_banner::before {
 /* tour styling end */
 
 /* contact styling start */
-.contact__section {
-    position: relative;
-    height: 500px;
-    background-image: url(../img/conatctbanner.jpg);
-    background-repeat: no-repeat;
+.contact_banner {
+    height: 400px;
+    background-image: url(../img/contactbanner.jpg);
     background-size: cover;
     background-position: center;
-    object-fit: cover;
-    margin-top: 0;
-    isolation: isolate;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-.contact__section::after {
-    content: '';
+.contact_banner::before {
     position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.55);
-    z-index: -1;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.contact_section h3 {
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.contact_section h2 {
+    font-size: 35px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+
 }
 
 .contact_section {
-    padding: 60px 0;
-    background: #faf9f7;
+    padding: 80px 0;
 }
 
 input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    background-color: var(--primary-color);
+    color: #ffff;
+    border: 1px solid transparent;
     transition: all 0.5s;
 }
 
 input.form-control.sub_btn:hover {
-
+    font-weight: 500;
     background-color: #fff;
     color: var(--primary-color);
-    border: 1px solid #fff;
-}
-
-.row.email {
-    padding: 0;
+    border: 1px solid var(--primary-color);
 }
 
 .row.email p a {
-    color: var(--primary-color);
+    color: #000;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     line-height: 28px;
     font-size: 15px;
-    font-weight: 600;
     text-transform: capitalize;
-}
-
-.info_right {
-    background: var(--primary-color);
-    padding: 30px;
-    border-radius: 5px;
-}
-
-.left_side_first h3 {
-    margin-top: 20px;
-}
-
-.info_left {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    color: var(--primary-color);
 }
 
 /* contact styling end */
