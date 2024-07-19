@@ -492,7 +492,7 @@ section.home_banner::before {
 /* casino styling end */
 /* tour styling start */
 .tour_banner {
-    background: url(../img/casinobanner.jpg);
+    background: url(../img/tourbanner.jpg);
     background-size: cover;
     background-position: center;
     padding: 140px 0;
