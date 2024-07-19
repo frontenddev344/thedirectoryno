@@ -592,21 +592,47 @@ input.form-control.sub_btn:hover {
     color: var(--secondary-color);
 }
 
+.contact_social {
+    margin-top: 30px;
+}
+
 .contact_social ul {
     display: flex;
-    gap: 10px;
-    margin: 10px 0;
+    margin-bottom: 10px;
+}
+
+.contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
 }
 
 .contact_social ul li {
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 5px 10px;
+    float: left;
+    margin-right: 10px !important;
 }
 
 .contact_social ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
     color: #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--primary-color);
+    background: var(--secondary-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contact_social ul li a:hover {
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
 }
 
 /* contact styling end */
