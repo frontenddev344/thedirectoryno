@@ -592,6 +592,23 @@ input.form-control.sub_btn:hover {
     color: var(--secondary-color);
 }
 
+.contact_social ul {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.contact_social ul li {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.contact_social ul li a {
+    color: #000;
+
+}
+
 /* contact styling end */
 /* privacy styling start */
 .privacy__section {
