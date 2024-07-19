@@ -595,6 +595,7 @@ input.form-control.sub_btn:hover {
 .contact_social {
     margin: 10px 0;
 }
+
 .contact_social ul {
     display: flex;
 }
@@ -603,6 +604,11 @@ input.form-control.sub_btn:hover {
     list-style: outside none none;
     margin: 0;
     padding: 0;
+}
+
+.right_side_first {
+    background: #0e46a31a;
+    padding: 30px;
 }
 
 .contact_social ul li {
