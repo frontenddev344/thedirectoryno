@@ -511,7 +511,33 @@ section.home_banner::before {
 }
 
 /* tour styling end */
+/* resturant styling start */
+.rest_section {
+    padding: 80px 0;
+    background: #0e46a31a;
+}
 
+.rest_one {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+}
+
+.rest_two {
+    padding: 20px;
+    background: var(--secondary-color);
+    box-shadow: 2px 2px 4px;
+    border-radius: 5px;
+}
+
+.rest_one a {
+    color: #000;
+}
+
+/* resturant styling end */
 /* contact styling start */
 .contact_banner {
     height: 400px;
