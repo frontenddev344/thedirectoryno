@@ -555,6 +555,11 @@ section.home_banner::before {
     color: #000;
 }
 
+.below_section {
+    padding: 60px 0;
+    text-align: center;
+}
+
 /* resturant styling end */
 /* contact styling start */
 .contact_banner {
