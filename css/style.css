@@ -545,8 +545,9 @@ section.home_banner::before {
     padding: 40px;
     color: #fff;
 }
-.rest_one.one{
+.rest_one.one {
     background-image: url(../img/post.jpg);
+    align-items: start;
 }
 
 /* resturant styling end */
