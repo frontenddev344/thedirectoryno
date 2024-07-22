@@ -526,22 +526,25 @@ section.home_banner::before {
     background-image: url(../img/paleetfood.jpg);
     background-size: cover;
     color: #fff;
-    margin: 30px 0;
+    margin: -20px 0  0;
 }
 
 .rest_two {
-    padding: 20px;
+    padding: 40px;
     background: var(--secondary-color);
     box-shadow: 2px 2px 4px;
     border-radius: 5px;
-
-
 }
 
 .rest_one a {
-    color: #000;
+    color: #fff;
 }
 
+.rest_bg {
+    background: #0e46a3;
+    padding: 40px;
+    color: #fff;
+}
 
 
 /* resturant styling end */
