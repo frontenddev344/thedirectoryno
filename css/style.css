@@ -518,7 +518,6 @@ section.home_banner::before {
 }
 
 .rest_one {
-    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -526,7 +525,8 @@ section.home_banner::before {
     align-items: end;
     background-image: url(../img/paleetfood.jpg);
     background-size: cover;
-
+    color: #fff;
+    margin: 30px 0;
 }
 
 .rest_two {
