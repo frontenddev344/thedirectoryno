@@ -561,6 +561,28 @@ section.home_banner::before {
 }
 
 /* resturant styling end */
+/* car styling start */
+.flex_box {
+    background: #fff;
+    box-shadow: 2px 3px 4px;
+    height: 200px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_box h2 {
+    font-size: 24px;
+    padding: 0;
+}
+
+.flex_section {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/* car styling end */
 /* contact styling start */
 .contact_banner {
     height: 400px;
