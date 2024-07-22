@@ -545,7 +545,9 @@ section.home_banner::before {
     padding: 40px;
     color: #fff;
 }
-
+.rest_one.one{
+    background-image: url(../img/post.jpg);
+}
 
 /* resturant styling end */
 /* contact styling start */
