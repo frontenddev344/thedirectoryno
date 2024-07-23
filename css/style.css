@@ -780,6 +780,16 @@ section.home_banner::before {
     background-position: center;
     background-size: cover;
 }
+.flex_box.flexicar {
+    background-image: url(../img/flexi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.flex_box.bilut {
+    background-image: url(../img/carrental.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .flex_box::before {
     content: "";
