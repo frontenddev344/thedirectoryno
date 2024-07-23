@@ -769,10 +769,16 @@ section.home_banner::before {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(https://vikaorganic.com.au/cdn/shop/files/Organic_essential_oil_blend_salt_rock_vika_organic_1500x.jpg?v=1664078260);
+
     position: relative;
     overflow: hidden;
     isolation: isolate;
+}
+
+.flex_box.eco {
+    background-image: url(../img/eco.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .flex_box::before {
