@@ -542,17 +542,24 @@ section.home_banner::before {
     justify-content: center;
     height: 480px;
     align-items: end;
-    background-image: url(../img/pallet.jpg);
     background-size: cover;
     color: #fff;
     margin: -10px 0 0;
-    
+    background-image: url(../img/pallet.jpg);
+    border-radius: 20px 0px 0px 20px;
+
 }
+
+.rest_one.paleet {}
 
 .rest_two {
     padding: 40px;
     background: var(--secondary-color);
     box-shadow: 2px 2px 4px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .rest_one a {
