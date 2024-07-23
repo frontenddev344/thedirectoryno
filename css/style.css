@@ -687,6 +687,18 @@ section.home_banner::before {
     border-radius: 0px 20px 20px 0;
 }
 
+.rest_one.blush {
+    background-image: url(../img/blush.webp);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.osla {
+    background-image: url(../img/osla.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
 .rest_two a {
     color: #000;
 }
