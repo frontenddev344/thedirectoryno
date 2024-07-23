@@ -705,6 +705,24 @@ section.home_banner::before {
     border-radius: 20px 0px 0px 20px;
 }
 
+.rest_one.nail {
+    background-image: url(../img/nails.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
+.rest_one.cosmetic {
+    background-image: url(../img/cosmetic.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.jas {
+    background-image: url(../img/jasbeauty.webp);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
 .rest_two a {
     color: #000;
 }
