@@ -728,21 +728,37 @@ section.home_banner::before {
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
+
 .rest_one.dryclean {
     background-image: url(../img/dryclean.jpg);
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
+
 .rest_one.laputan {
     background-image: url(../img/laputan.jpg);
     align-items: start;
     border-radius: 0px 20px 20px 0;
 }
+
 .rest_one.loyal {
     background-image: url(../img/loyal.jpg);
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
+
+.rest_one.cafelaundary {
+    background-image: url(../img/cafelaundry.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.royal {
+    background-image: url(../img/royal.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
 .rest_two a {
     color: #000;
 }
@@ -794,11 +810,13 @@ section.home_banner::before {
     background-position: center;
     background-size: cover;
 }
+
 .flex_box.flexicar {
     background-image: url(../img/flexi.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .flex_box.bilut {
     background-image: url(../img/carrental.jpg);
     background-position: center;
