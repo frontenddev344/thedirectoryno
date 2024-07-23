@@ -159,6 +159,12 @@
     .single_footer {
         margin-bottom: 20px;
     }
+    .rest_two {
+        height: 100%;
+    }
+    .rest_one {
+        height: 380px;
+    }
 }
 
 @media (max-width: 575px) {
