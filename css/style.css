@@ -627,6 +627,24 @@ section.home_banner::before {
     border-radius: 20px 0px 0px 20px;
 }
 
+.rest_one.discover {
+    background-image: url(../img/discover.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
+.rest_one.enterprise {
+    background-image: url(../img/enterprise.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.norge {
+    background-image: url(../img/norge.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
 .rest_two a {
     color: #000;
 }
