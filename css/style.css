@@ -764,7 +764,16 @@ section.home_banner::before {
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
-
+.rest_one.wash {
+    background-image: url(../img/wash.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+.rest_one.quick {
+    background-image: url(../img/quick.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
 .rest_two a {
     color: #000;
 }
