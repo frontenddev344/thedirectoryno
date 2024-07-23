@@ -728,7 +728,21 @@ section.home_banner::before {
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
-
+.rest_one.dryclean {
+    background-image: url(../img/dryclean.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+.rest_one.laputan {
+    background-image: url(../img/laputan.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+.rest_one.loyal {
+    background-image: url(../img/loyal.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
 .rest_two a {
     color: #000;
 }
