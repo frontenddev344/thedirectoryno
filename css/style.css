@@ -552,7 +552,6 @@ section.home_banner::before {
     padding: 40px;
     background: var(--secondary-color);
     box-shadow: 2px 2px 4px;
-    border-radius: 20px 0 0 20px;
 }
 
 .rest_one a {
@@ -568,6 +567,7 @@ section.home_banner::before {
 .rest_one.one {
     background-image: url(../img/post.jpg);
     align-items: start;
+    border-radius: 0px 20px 20px 0;
 }
 
 .rest_one.stress {
@@ -578,6 +578,43 @@ section.home_banner::before {
 
 .rest_one.submmit {
     background-image: url(../img/summitbar.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.Winstons {
+    background-image: url(../img/sirwinstons.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
+.rest_one.ramen {
+    background-image: url(../img/ramen.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.middel {
+    background-image: url(../img/middel.jpg);
+    background-position: bottom;
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
+.rest_one.sara {
+    background-image: url(../img/sara.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.ricebowl {
+    background-image: url(../img/ricebowl.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
+.rest_one.thai {
+    background-image: url(../img/thaigreener.jpg[ProductImage][4D037E10BEDE2AD54388EA6F4E1AED48]);
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
