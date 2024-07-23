@@ -681,6 +681,12 @@ section.home_banner::before {
     border-radius: 20px 0px 0px 20px;
 }
 
+.rest_one.yogaroom {
+    background-image: url(../img/yogaroom.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
 .rest_two a {
     color: #000;
 }
