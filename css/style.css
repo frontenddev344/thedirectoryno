@@ -723,6 +723,12 @@ section.home_banner::before {
     border-radius: 0px 20px 20px 0;
 }
 
+.rest_one.oil {
+    background-image: url(../img/beautyoil.webp);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
 .rest_two a {
     color: #000;
 }
@@ -763,11 +769,31 @@ section.home_banner::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url(https://vikaorganic.com.au/cdn/shop/files/Organic_essential_oil_blend_salt_rock_vika_organic_1500x.jpg?v=1664078260);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.flex_box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    transform: translateY(100%);
+    transition: all 0.2s linear;
+    z-index: -1;
+}
+
+.flex_box:hover::before {
+    transform: translateY(0);
 }
 
 .flex_box h2 {
     font-size: 24px;
     padding: 0;
+    color: var(--secondary-color);
 }
 
 .flex_section {
