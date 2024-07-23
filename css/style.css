@@ -570,6 +570,11 @@ section.home_banner::before {
     align-items: start;
 }
 
+.rest_one.stress {
+    background-image: url(../img/nostress.jpg);
+    align-items: start;
+}
+
 .rest_two a {
     color: #000;
 }
@@ -661,6 +666,7 @@ section.home_banner::before {
     z-index: 0;
     top: 0%;
 }
+
 /* Laundry styling end */
 /* contact styling start */
 .contact_banner {
