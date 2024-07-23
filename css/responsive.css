@@ -36,7 +36,10 @@
 }
 
 @media (max-width: 991px) {
-    
+    footer li a {
+        font-size: 16px;
+    }
+
     .banner-text h1 {
         font-size: 35px;
 
@@ -65,6 +68,9 @@
 }
 
 @media (max-width: 767px) {
+    .footer_inner ul {
+        display: inline-block;
+    }
 
     .footer_logo img {
 
