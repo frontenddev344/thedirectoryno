@@ -774,6 +774,16 @@ section.home_banner::before {
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
+.rest_one.service {
+    background-image: url(../img/service.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+.rest_one.trust {
+    background-image: url(../img/trust.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
 .rest_two a {
     color: #000;
 }
