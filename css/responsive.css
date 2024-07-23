@@ -132,8 +132,10 @@
     }
 
     .casino {
-        margin-bottom: 40px;
+        padding: 40px 0;
+        
     }
+
 
     .banner_box h1 {
         font-size: 32px;
