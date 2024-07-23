@@ -650,11 +650,19 @@ section.home_banner::before {
     align-items: end;
     border-radius: 20px 0px 0px 20px;
 }
+
 .rest_one.carjet {
     background-image: url(../img/carjet.jpg);
     align-items: start;
     border-radius: 0px 20px 20px 0;
 }
+
+.rest_one.auto {
+    background-image: url(../img/europe.png);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
 .rest_two a {
     color: #000;
 }
