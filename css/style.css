@@ -663,6 +663,24 @@ section.home_banner::before {
     border-radius: 20px 0px 0px 20px;
 }
 
+.rest_one.yoga {
+    background-image: url(../img/yoga.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.rest_one.hotyoga {
+    background-image: url(../img/hotyoga.jpg);
+    align-items: start;
+    border-radius: 0px 20px 20px 0;
+}
+
+.rest_one.wanderland {
+    background-image: url(../img/wanderland.jpg);
+    align-items: end;
+    border-radius: 20px 0px 0px 20px;
+}
+
 .rest_two a {
     color: #000;
 }
