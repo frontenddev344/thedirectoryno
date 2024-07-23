@@ -65,9 +65,41 @@
     .row.email {
         gap: 20px;
     }
+
+    .casino_text {
+        width: 60%;
+    }
+
+    .casino_img {
+        width: 40%;
+    }
 }
 
 @media (max-width: 767px) {
+    section.home_banner {
+        height: 400px;
+
+    }
+
+    .enter_banner,
+    .restaurant,
+    .car,
+    .health,
+    .Laundry,
+    .casino_banner,
+    .tour_banner {
+        height: 400px;
+
+    }
+
+    .entertain {
+        padding: 40px 0;
+    }
+
+    .detail {
+        padding: 40px 0;
+    }
+
     .footer_inner ul {
         display: inline-block;
     }
