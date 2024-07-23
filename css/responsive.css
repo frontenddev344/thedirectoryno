@@ -96,6 +96,24 @@
         padding: 40px 0;
     }
 
+    .casino_text {
+        width: 100%;
+    }
+
+    .casino_img {
+        width: 100%;
+    }
+
+    .casino_together {
+        display: block;
+
+    }
+
+    .casino_img img {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
     .detail {
         padding: 40px 0;
     }
