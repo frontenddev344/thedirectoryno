@@ -586,6 +586,15 @@ section.home_banner::before {
     justify-content: center;
     text-align: center;
 }
+.flex_box:hover h3 {
+    color: #fff;
+}
+.flex_box:hover p{
+    color: #fff;
+}
+.flex_box:hover a{
+    color: #fff;
+}
 .rest_one.one {
     background-image: url(../img/post.jpg);
     align-items: start;
