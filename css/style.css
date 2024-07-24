@@ -571,7 +571,21 @@ section.home_banner::before {
     padding: 40px;
     color: #fff;
 }
-
+.flex_cont a {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flex_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .rest_one.one {
     background-image: url(../img/post.jpg);
     align-items: start;
