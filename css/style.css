@@ -547,10 +547,19 @@ section.home_banner::before {
     margin: -10px 0 0;
     background-image: url(../img/pallet.jpg);
     border-radius: 20px 0px 0px 20px;
-
+    position: relative;
 }
 
-.rest_one.paleet {}
+
+.bg_link::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+a.tel_link {
+    position: relative;
+    z-index: 9;
+}
 
 .rest_two {
     padding: 40px;
@@ -571,6 +580,7 @@ section.home_banner::before {
     padding: 40px;
     color: #fff;
 }
+
 .flex_cont a {
     color: #000;
     display: flex;
@@ -579,6 +589,7 @@ section.home_banner::before {
     justify-content: center;
     text-align: center;
 }
+
 .flex_cont {
     display: flex;
     flex-direction: column;
@@ -586,15 +597,19 @@ section.home_banner::before {
     justify-content: center;
     text-align: center;
 }
+
 .flex_box:hover h3 {
     color: #fff;
 }
-.flex_box:hover p{
+
+.flex_box:hover p {
     color: #fff;
 }
-.flex_box:hover a{
+
+.flex_box:hover a {
     color: #fff;
 }
+
 .rest_one.one {
     background-image: url(../img/post.jpg);
     align-items: start;
