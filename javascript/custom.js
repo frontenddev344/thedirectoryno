@@ -9,12 +9,12 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        var header = $("header");
-        header.toggleClass("sticky", $(window).scrollTop() > 0);
-    });
-});
+// $(document).ready(function () {
+//     $(window).scroll(function () {
+//         var header = $("header");
+//         header.toggleClass("sticky", $(window).scrollTop() > 0);
+//     });
+// });
 
 
 // document.addEventListener("DOMContentLoaded", function() {
