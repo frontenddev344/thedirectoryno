@@ -1487,7 +1487,7 @@ a.btn.btn-primary.setting-cookies:hover {
     z-index: 0;
     top: 0%;
 }
-ramen_banner {
+.ramen_banner {
     background: url(../img/ramenbanner.jpg);
     background-size: cover;
     background-position: center;
