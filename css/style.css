@@ -1607,8 +1607,8 @@ a.btn.btn-primary.setting-cookies:hover {
     z-index: 0;
     top: 0%;
 }
-.euro_banner {
-    background: url(../img/carhetbanner.jpg);
+.euro{
+    background: url(../img/eurobanner.jpg);
     background-size: cover;
     background-position: center;
     padding: 140px 0;
