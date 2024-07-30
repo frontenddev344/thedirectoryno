@@ -74,6 +74,7 @@ h2 {
     padding-bottom: 50px;
     text-transform: uppercase;
 }
+
 /* navbar styling  */
 .logo img {
     max-width: 180px;
@@ -186,6 +187,11 @@ body.toggle .navlink {
     padding: 40px;
     margin: 0;
     z-index: 9;
+}
+
+.navlink i.fa.fa-sort-desc {
+    color: #fff;
+    padding: 4px;
 }
 
 .navlink ul ul.subnav {
