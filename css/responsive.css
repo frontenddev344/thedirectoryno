@@ -73,6 +73,13 @@
     .casino_img {
         width: 40%;
     }
+
+    .rest_one {
+        height: 580px;
+    }
+    .rest_two {
+        height: 630px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -133,7 +140,7 @@
 
     .casino {
         padding: 40px 0;
-        
+
     }
 
 
@@ -159,9 +166,11 @@
     .single_footer {
         margin-bottom: 20px;
     }
+
     .rest_two {
         height: 100%;
     }
+
     .rest_one {
         height: 380px;
     }
