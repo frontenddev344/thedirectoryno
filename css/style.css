@@ -2050,3 +2050,22 @@ a.btn.btn-primary.setting-cookies:hover {
     z-index: 0;
     top: 0%;
 }
+
+.Fru {
+    background: url(../img/renbannar.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 140px 0;
+    height: 500px;
+    position: relative;
+}
+
+.Fru::before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0%;
+}
