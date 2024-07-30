@@ -549,6 +549,7 @@ section.home_banner::before {
     background-image: url(../img/pallet.jpg);
     border-radius: 20px 0px 0px 20px;
     position: relative;
+    transition: all 0.3s linear;
 }
 
 
@@ -843,6 +844,10 @@ a.tel_link {
 
 .rest_two a {
     color: #000;
+}
+
+.rest_one:hover {
+    filter: grayscale(1);
 }
 
 .below_section {
