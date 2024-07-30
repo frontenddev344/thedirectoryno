@@ -188,12 +188,12 @@ body.toggle .navlink {
     z-index: 9;
 }
 
-ul.subnav {
-    display: none !important;
+.navlink ul ul.subnav {
+    display: none;
 }
 
 .navlink ul li:hover ul.subnav {
-    display: block !important;
+    display: block;
 }
 
 .navlink ul {
