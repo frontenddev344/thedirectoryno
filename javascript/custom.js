@@ -82,8 +82,8 @@ $(document).ready(function () {
 })();
 
 
-$(document).ready(function () {
-    $(".navlink li i").click(function () {
-        $(this).parent().next().slideToggle();
-    });
+$(document).ready(function(){
+$(".navlink li i").click(function(){
+$(this).parent().find(".subnav").slideToggle();
+});
 });
