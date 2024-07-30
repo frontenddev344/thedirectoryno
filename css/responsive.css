@@ -83,6 +83,7 @@
     }
 }
 
+
 @media (max-width: 767px) {
     section.home_banner {
         height: 400px;
@@ -187,7 +188,7 @@
 }
 
 @media (max-width: 575px) {
-   
+
     .popup {
         width: 80%;
     }
