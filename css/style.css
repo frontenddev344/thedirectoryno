@@ -351,7 +351,11 @@ section.home_banner::before {
     object-fit: cover;
     margin: -32px 0 8px -32px;
     border-radius: 20px;
-    transition: all 0.3 linear;
+    transition: all 0.3s linear;
+}
+
+.season_box img:hover {
+    filter: grayscale(1);
 }
 
 .season_last p {
