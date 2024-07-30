@@ -376,11 +376,15 @@ section.home_banner::before {
     font-size: 28px;
 }
 
+.entertain .row {
+    row-gap: 20px;
+}
+
 .enter_box {
     background: linear-gradient(45deg, #fff, transparent);
     margin-bottom: 20px;
     padding: 20px;
-    height: 250px;
+    height: 100%;
     text-align: center;
 }
 
@@ -590,9 +594,11 @@ a.tel_link {
     flex-direction: column;
     justify-content: center;
 }
+
 .rest_two.vika {
     height: 570px;
 }
+
 .rest_one a {
     color: #fff;
 }
