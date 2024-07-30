@@ -79,7 +79,7 @@
     }
 
     .rest_two {
-        height: 630px;
+        height: 100%;
     }
 }
 
@@ -87,6 +87,10 @@
     section.home_banner {
         height: 400px;
 
+    }
+
+    .rest_two.vika {
+        height: 100%;
     }
 
     .rest_section {
@@ -183,6 +187,7 @@
 }
 
 @media (max-width: 575px) {
+   
     .popup {
         width: 80%;
     }

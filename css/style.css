@@ -590,7 +590,9 @@ a.tel_link {
     flex-direction: column;
     justify-content: center;
 }
-
+.rest_two.vika {
+    height: 570px;
+}
 .rest_one a {
     color: #fff;
 }
