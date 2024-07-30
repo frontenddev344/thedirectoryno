@@ -358,9 +358,13 @@ section.home_banner::before {
     filter: grayscale(1);
 }
 
+.season {
+    padding-bottom: 50px;
+}
+
 .season_last p {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 /* news styling end */
