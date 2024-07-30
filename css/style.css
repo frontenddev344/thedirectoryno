@@ -1918,9 +1918,9 @@ a.btn.btn-primary.setting-cookies:hover {
     z-index: 0;
     top: 0%;
 }
-dry_clean
-.royal_banner {
-    background: url(../img/royalbanner.jpg);
+
+.dry_clean {
+    background: url(../img/drycleanbanner.jpg);
     background-size: cover;
     background-position: center;
     padding: 140px 0;
@@ -1928,7 +1928,7 @@ dry_clean
     position: relative;
 }
 
-.royal_banner::before {
+.dry_clean::before {
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.55);
