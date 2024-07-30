@@ -1957,8 +1957,8 @@ a.btn.btn-primary.setting-cookies:hover {
     top: 0%;
 }
 
-.Snarvask_banner {
-    background: url(../img/snarbanner.jpg);
+.Skrovabanner {
+    background: url(../img/skorvabanner.jpg);
     background-size: cover;
     background-position: center;
     padding: 140px 0;
@@ -1966,7 +1966,7 @@ a.btn.btn-primary.setting-cookies:hover {
     position: relative;
 }
 
-.Snarvask_banner::before {
+.Skrovabanner::before {
     position: absolute;
     content: '';
     background: rgba(0, 0, 0, 0.55);
