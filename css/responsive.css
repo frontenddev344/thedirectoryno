@@ -178,7 +178,7 @@
 
     .rest_one {
         height: 380px;
-        border-radius: unset;
+        border-radius: unset !important;
     }
 }
 
