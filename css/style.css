@@ -470,6 +470,11 @@ section.home_banner::before {
     width: 800px;
     height: 460px;
     object-fit: cover;
+    transition: all 0.3s linear;
+}
+
+.casino_img img:hover {
+    filter: grayscale(1);
 }
 
 .casino_text a {
@@ -2032,6 +2037,7 @@ a.btn.btn-primary.setting-cookies:hover {
     z-index: 0;
     top: 0%;
 }
+
 .laputanbanner {
     background: url(../img/drycleanbanner.jpg);
     background-size: cover;
