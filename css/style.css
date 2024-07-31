@@ -75,6 +75,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.rest_two a:hover {
+    color: #0e46a3;
+}
+
 /* navbar styling  */
 .logo img {
     max-width: 180px;
